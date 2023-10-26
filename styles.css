@@ -1,0 +1,34 @@
+.container {
+  border-radius: 50px;
+  width: 780px;
+  padding: 10px 20px;
+  border: 1px solid black;
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.text-data {
+  text-align: center;
+
+  border-radius: 50px;
+  display: flex;
+  flex-direction: column;
+
+}
+
+body {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  background-color: azure;
+}
+
+img {
+  border-radius: 50%;
+  height: 100px;
+  width: 100px;
+}
